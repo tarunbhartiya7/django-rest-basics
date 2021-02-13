@@ -1,0 +1,6 @@
+{
+  "python.linting.enabled": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "autopep8",
+  "python.pythonPath": "/Users/tarunbhartiya/Documents/programming/python/DjangoRestAPI/drf-basics/env/bin/python3"
+}
