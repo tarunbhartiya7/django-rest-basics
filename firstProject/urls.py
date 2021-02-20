@@ -1,6 +1,6 @@
 from django.urls import include, path
-from firstProject.cbvApp import ping
 from firstProject.cbvApp import views as student_view
+from firstProject.cbvApp.views import ping
 from firstProject.nestedApp import views as literature_view
 from rest_framework import routers
 
