@@ -1,6 +1,7 @@
 # django-rest-api-demo-service
 
 This service is responsible to illustrate django rest inside docker container
+Added pre commit configuration
 
 # Reference
 
