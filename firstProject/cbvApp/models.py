@@ -9,4 +9,4 @@ class Student(models.Model):
     score = models.DecimalField(max_digits=10, decimal_places=3)
 
     def __str__(self):
-        return self.id+self.name+self.score
+        return self.id + self.name + self.score
