@@ -1,7 +1,8 @@
 from rest_framework import viewsets
-from .serializers import StudentSerializer
-from .models import Student
 from rest_framework.pagination import PageNumberPagination
+
+from .models import Student
+from .serializers import StudentSerializer
 
 
 class StudentPagination(PageNumberPagination):

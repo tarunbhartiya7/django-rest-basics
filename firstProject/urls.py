@@ -1,7 +1,7 @@
 from django.urls import include, path
-from rest_framework import routers
 from firstProject.cbvApp import views as student_view
 from firstProject.nestedApp import views as literature_view
+from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register("author", literature_view.AuthorViewSet)
